@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Weaver AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Screen 1: Welcome -->
+    <div id="screen1" class="screen active">
+        <div class="welcome-content">
+            <div class="logo">City Weaver AI</div>
+            <h1>Let's Weave Your Perfect Day.</h1>
+            <p>Tell me your mood, and I'll craft a unique adventure in the city, just for you.</p>
+            <button id="beginAdventureBtn">[ Begin the Adventure ]</button>
+        </div>
+    </div>
+
+    <!-- Screen 2: Choose Your Adventure -->
+    <div id="screen2" class="screen">
+        <h2>What kind of adventure are you seeking today?</h2>
+        <div class="adventure-carousel">
+            <!-- Adventure Cards will be inserted here by JavaScript -->
+        </div>
+        <button id="confirmAdventureBtn" class="hidden">[ Confirm ]</button>
+    </div>
+
+    <!-- Screen 3: The "Weaving" (Loading) Screen -->
+    <div id="screen3" class="screen">
+        <div class="weaving-content">
+            <div class="weaving-icon"></div>
+            <div class="weaving-text"></div>
+        </div>
+    </div>
+
+    <!-- Screen 4: The Itinerary Screen -->
+    <div id="screen4" class="screen">
+        <div class="itinerary-header">
+            <h2>The Urban Explorer's Route</h2>
+        </div>
+        <div class="itinerary-timeline">
+            <!-- Itinerary stops will be inserted here by JavaScript -->
+        </div>
+        <button class="fab">🎲</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+gtfs-realtime-bindings
+protobuf
+passlib[bcrypt]
+python-jose[cryptography]
+pydantic

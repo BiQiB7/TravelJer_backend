@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "place": {
+    "name": "Ipoh",
+    "address": "Ipoh, Perak, Malaysia",
+    "rating": null,
+    "total_ratings": null,
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4.6005126,101.0757837&query_place_id=ChIJ4zNA83nsyjERWehSaUaf3I8"
+  },
+  "summary": "Ipoh is a city located in the state of Perak, Malaysia.",
+  "how_people_say": "No reviews available.",
+  "error": null
+}

@@ -1,0 +1,15 @@
+
+I need to develop an tourism planning AI agent, with capability to search for places, then pass the places id to routing engine to give the route and need to visualise the route on map.
+Now i need you to architect the api input output params of the tool functions, referring to the documentations.
+you should develop the functions only, no need to implement the agent.
+
+below are documentation for the apis, except the sdk/api to render on google map.
+
+routing: https://developers.google.com/maps/documentation/routes/compute-route-over
+find nearby: https://developers.google.com/maps/documentation/places/web-service/nearby-search
+search for places: https://developers.google.com/maps/documentation/places/web-service/reference/rest/v1/places
+
+first, identify the parameters to expose for each function, and the output schema.
+
+
+weather: https://developers.google.com/maps/documentation/weather/daily-forecast

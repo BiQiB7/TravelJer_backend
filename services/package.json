@@ -1,0 +1,27 @@
+{
+  "name": "scraping-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraping.js",
+  "scripts": {
+    "start": "ts-node scraping.ts",
+    "build": "tsc",
+    "serve": "node dist/scraping.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.44.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.2",
+    "@types/pdf-parse": "^1.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
